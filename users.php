@@ -5,7 +5,7 @@
 
     $link = DBconnec();
     $users = DBread($link, 'usuarios');
-    var_dump($users[0]);
+    // var_dump($users[0]);
 function mask($val, $mask){
  $maskared = '';
  $k = 0;
